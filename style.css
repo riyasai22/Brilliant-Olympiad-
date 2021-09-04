@@ -412,7 +412,7 @@ li{
     -webkit-background-clip:text;
     transform: scale(1.2);
 }
-@media(max-width:400px)
+@media(max-width:640px)
 {
     .nav_container{
         flex-direction: column;
