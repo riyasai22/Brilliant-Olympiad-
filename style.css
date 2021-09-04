@@ -86,13 +86,14 @@ li{
     font-size:20px;
     font-weight:800;
     color:#1C77FF;
+    background:white;
     border-radius:50px;
     text-transform:uppercase;
     box-shadow:0px 4px 4px rgb(0,0,0,0.2);
     cursor: pointer;
 }
 .intro{
-    height:90vh;
+    height:100%;
     width:100%;
     z-index:-1;
     background:url(images/intro.png);
@@ -157,7 +158,8 @@ li{
     margin-top:60px;
 }
 .banner{
-    height:32vh;
+    height:100%;
+    padding:60px 30px;
     background-color:rgb(24, 20, 43);
     /* background-color: rgb(224, 234, 250); */
     display: flex;
@@ -412,7 +414,7 @@ li{
     -webkit-background-clip:text;
     transform: scale(1.2);
 }
-@media(max-width:640px)
+@media(max-width:700px)
 {
     .nav_container{
         flex-direction: column;
@@ -424,7 +426,6 @@ li{
     .nav-items{
         display:none;
     }
-
     .nav_container{
         flex-direction:column;
         align-items:center;
@@ -442,10 +443,13 @@ li{
         display:flex;
     }
     .intro{
-        height:90vh;
+        height:100%;
         background:linear-gradient(40deg, #0270ff,#7c12a3d8);
         border-bottom-left-radius: 100vw;
         border-bottom-right-radius: 100vw;
+    }
+    .test h3{        
+        color:white;
     }
     .logo{
         margin-top:20px;
@@ -468,14 +472,14 @@ li{
     }
     .test h3{
         font-size:20px;
-        margin:10px 0px 40px;
+        margin:0px 0px 40px;
     }
     .num{
         display:none;
     }
     .text-container{
         width:100%;
-        padding: 80px 20px;
+        padding: 120px 20px 0px;
         text-align:center;
     }
     .text-container h1{
@@ -489,7 +493,6 @@ li{
     .banner{
         height:100%;
         display: flex;
-        margin:112vh 0px 0px;
         padding:40px 10px;
     }
     .banner p{
